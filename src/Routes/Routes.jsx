@@ -21,7 +21,7 @@ import Merchandise from "../Customer_Service/merchandise";
 
 // ADMIN
 import Admin from "../Admin/Admin";
-import CRUDJabatan from "../admin/CRUDJabatan";
+// import CRUDJabatan from "../admin/CRUDJabatan";
 import CRUDMercandise from "../admin/CRUDMercandise";
 import CRUDOrganisasi from "../Admin/CRUDOrganisasi";
 
@@ -158,10 +158,6 @@ const router = createBrowserRouter([
       {
         path: "pegawai",
         element: <CRUDPegawai />,
-      },
-      {
-        path: "jabatan",
-        element: <CRUDJabatan />,
       },
       {
         path: "mercandise",
