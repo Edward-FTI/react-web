@@ -133,7 +133,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import { GetPenitipData, TarikSaldoPenitip } from '../api/apiPenitip';
+import { GetPenitipData, TarikSaldoPenitip } from '../Api/apiPenitip';
 
 const TarikSaldo = () => {
     const [saldo, setSaldo] = useState(null);
