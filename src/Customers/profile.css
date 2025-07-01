@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #caf0f8;
+}
+
+h2,
+h4 {
+  color: #00c8eb;
+}
+
+header {
+  position: sticky;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 90px;
+  background-color: #00c8eb;
+  text-shadow: black 0px 0px 2px;
+  background-image: url("assets/View4.JPG");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00a2c6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+body.active {
+  margin-left: 250px;
+  transition: margin-left 0.5s;
+}
+
+.sidenav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+.open-sidenav {
+  width: 250px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  display: flex;
+  position: sticky;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 65%;
+}
+
+article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.featured-image {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 400px;
+  max-width: 500px;
+  object-fit: cover;
+  display: block;
+  object-position: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  display: flex;
+  text-align: space-between;
+  font-weight: center;
+}
+
+footer .position {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+footer .position .relative {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .foot {
+  color: white;
+  margin: auto;
+  display: flex;
+}
+
+footer h2 {
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+footer a {
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  color: white;
+}
+
+footer li {
+  display: inline;
+  list-style-type: none;
+  margin-right: auto;
+}
+
+figure {
+  padding: auto;
+}
+
+.profile img {
+  width: 90%;
+  border-radius: 10%;
+  justify-content: center;
+  max-width: 250px;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+  }
+
+  .sidenav {
+    width: 10%;
+    padding-top: 10%;
+  }
+
+  body.active {
+    margin-left: 0;
+  }
+
+  .sidenav a {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .menu-icon {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+}
+

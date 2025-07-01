@@ -1,0 +1,63 @@
+.search-box {
+    border-radius: 50px;
+}
+
+.category-links a {
+    font-size: 0.9rem;
+    margin-right: 10px;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.category-links a:hover {
+    background-color: transparent !important;
+    color: #198754;
+}
+
+.col a {
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    font-weight: 600;
+}
+
+
+.logo {
+    text-decoration: none
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down
+}
+
+.card-body h5 {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.card-body p {
+    font-size: 14px;
+}
+
+.logo:hover {
+    background: transparent !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(194, 192, 192);
+    /* Ubah warna panah menjadi hitam */
+    border-radius: 50%;
+    /* Tambahkan efek bulat (opsional) */
+    width: 30px;
+    /* Atur ukuran panah */
+    height: 30px;
+}

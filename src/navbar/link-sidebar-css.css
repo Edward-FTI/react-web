@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.link-side:hover {
+    background-color: #198754;
+    filter: brightness(85%);
+    border-radius: 2px;
+}
