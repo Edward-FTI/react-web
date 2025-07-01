@@ -21,6 +21,9 @@ const Dashboard = () => {
   const handleMasukClick = () => {
     navigate("/login");
   };
+    const daftar = () => {
+    navigate("/register");
+  };
 
   useEffect(() => {
     const fetchBarang = async () => {
@@ -172,7 +175,7 @@ const Dashboard = () => {
                 >
                   Masuk
                 </button>
-                <button className="btn btn-outline-success me-2">Daftar</button>
+                <button className="btn btn-outline-success me-2" onClick={daftar}>Daftar</button>
               </>
 
               <button
