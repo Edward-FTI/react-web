@@ -25,7 +25,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchBarang = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/barang");
+        const response = await axios.get("http://103.175.219.103/api/barang");
 
         // Filter hanya barang yang statusnya "Dijual"
         const barangDijual = response.data.data.filter(
@@ -217,7 +217,7 @@ const Dashboard = () => {
                 onClick={() => handleModalOpen(item)}
               >
                 <img
-                  src={`http://localhost:8000/${item.gambar}`}
+                  src={`http://103.175.219.103/${item.gambar}`}
                   className="card-img-top"
                   alt={item.nama_barang}
                 />
@@ -271,7 +271,7 @@ const Dashboard = () => {
                           key={index}
                         >
                           <img
-                            src={`http://localhost:8000/${gambar}`}
+                            src={`http://103.175.219.103:8000/${gambar}`}
                             className="d-block mx-auto img-fluid p-3"
                             style={{ maxHeight: "300px", objectFit: "contain" }}
                             alt={`Gambar ${index + 1}`}
@@ -367,7 +367,7 @@ const Dashboard = () => {
                 >
                   <div className="d-flex align-items-center">
                     <img
-                      src={`http://localhost:8000/${item.barang.gambar}`}
+                      src={`http://103.175.219.103/${item.barang.gambar}`}
                       alt={item.barang.nama_barang}
                       style={{
                         width: "50px",

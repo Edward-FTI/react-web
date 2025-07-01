@@ -24,7 +24,7 @@ const Donasi = () => {
   useEffect(() => {
     const fetchBarang = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/barang");
+        const response = await axios.get("http://103.175.219.103/api/barang");
 
         // Filter hanya barang yang statusnya "Dijual"
         const barangDijual = response.data.data.filter(
@@ -169,7 +169,7 @@ const Donasi = () => {
                   <td>{item.tgl_pengambilan}</td>
                   <td>
                     <img
-                      src={`http://localhost:8000/${item.gambar}`}
+                      src={`http://103.175.219.103/${item.gambar}`}
                       alt="gambar"
                       style={{
                         width: "80px",
@@ -180,7 +180,7 @@ const Donasi = () => {
                   </td>
                   <td>
                     <img
-                      src={`http://localhost:8000/${item.gambar_dua}`}
+                      src={`http://103.175.219.103/${item.gambar_dua}`}
                       alt="gambar dua"
                       style={{
                         width: "80px",
@@ -250,7 +250,7 @@ const Donasi = () => {
                           key={index}
                         >
                           <img
-                            src={`http://localhost:8000/${gambar}`}
+                            src={`http://103.175.219.103/${gambar}`}
                             className="d-block mx-auto img-fluid p-3"
                             style={{ maxHeight: "300px", objectFit: "contain" }}
                             alt={`Gambar ${index + 1}`}

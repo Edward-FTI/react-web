@@ -574,7 +574,7 @@ const UjianKelas = () => {
                                                             {detailItem.barang?.gambar && (
                                                                 <div className="carousel-item active">
                                                                     <img
-                                                                        src={`http://localhost:8000/${detailItem.barang.gambar}`}
+                                                                        src={`http://103.175.219.103/${detailItem.barang.gambar}`}
                                                                         className="d-block w-100 rounded"
                                                                         alt="Gambar 1"
                                                                         style={{ maxHeight: "300px", objectFit: "contain" }}
@@ -584,7 +584,7 @@ const UjianKelas = () => {
                                                             {detailItem.barang?.gambar_dua && (
                                                                 <div className="carousel-item">
                                                                     <img
-                                                                        src={`http://localhost:8000/${detailItem.barang.gambar_dua}`}
+                                                                        src={`http://103.175.219.103/${detailItem.barang.gambar_dua}`}
                                                                         className="d-block w-100 rounded"
                                                                         alt="Gambar 2"
                                                                         style={{ maxHeight: "300px", objectFit: "contain" }}

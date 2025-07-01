@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = 'http://127.0.0.1:8000'; // Proxy akan mengarahkan permintaan ke backend
+export const BASE_URL = 'http://103.175.219.103'
 
 
 export const getThumbnail = (thumbnail) => {
