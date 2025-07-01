@@ -54,24 +54,28 @@ const FormRegisterOrg = () => {
           name="nama"
           onChange={handleChange}
           placeholder="Masukkan Nama"
+          label="Nama Organisasi"
         />
         <InputFloatingForm
           type="text"
           name="alamat"
           onChange={handleChange}
           placeholder="Masukkan Alamat"
+          label="Alamat"
         />
         <InputFloatingForm
           type="email"
           name="email"
           onChange={handleChange}
           placeholder="Masukkan Email"
+          label="Email"
         />
         <InputFloatingForm
           type="text"
           name="no_hp"
           onChange={handleChange}
           placeholder="Masukkan No HP"
+          label="No HP"
         />
         <InputFloatingForm
           type="password"
@@ -79,6 +83,7 @@ const FormRegisterOrg = () => {
           onChange={handleChange}
           placeholder="Masukkan Password"
           autoComplete="off"
+          label="Password"
         />
       </div>
 

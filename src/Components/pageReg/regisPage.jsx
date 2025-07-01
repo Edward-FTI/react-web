@@ -4,7 +4,7 @@ import "./Form.css";
 
 const RegisterPage = () => {
   return (
-    <Container className="mt-5">
+    <Container className="formContainer">
       <div className="text-center mb-3">
         <h1 className="mt-1 pb-1 fw-bold">Sign Up</h1>
       </div>

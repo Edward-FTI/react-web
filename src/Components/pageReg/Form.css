@@ -4,18 +4,18 @@
 
 /* SCOPED STYLES FOR REGISTER FORM */
 .formContainer body {
-    background-color: #c8e6c9;
+    background-color: #ffffff;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.formContainer h1 {
+/* .formContainer h1 {
     color: #1b5e20;
     font-weight: bold;
     margin-bottom: 20px;
-}
+} */
 
 .formContainer .form-card {
     background-color: #ffffff;
@@ -26,35 +26,44 @@
     max-width: 450px;
 }
 
-.formContainer .alertColor {
+/* .formContainer .alertColor {
     background-color: #a5d6a7 !important;
     color: #1b5e20 !important;
     border: 1px solid #66bb6a !important;
-}
+} */
 
 .formContainer .buttonSubmit {
-    background-color: #388e3c !important;
+    /* background-color: #388e3c !important; */
     color: white !important;
     border-radius: 8px !important;
     width: 100%;
     padding: 10px;
 }
 
-.formContainer .buttonSubmit:hover {
+/* .formContainer .buttonSubmit:hover {
     background-color: #2e7d32 !important;
-}
+} */
 
 .formContainer .checkbox-label {
-    color: #2e7d32;
+    /* color: #2e7d32; */
     margin-bottom: 10px;
 }
 
 .formContainer .link-text {
-    color: #1b5e20;
+    /* color: #1b5e20; */
     text-decoration: underline;
 }
 
-.formContainer .link-text:hover {
+/* .formContainer .link-text:hover {
     background-color: transparent;
     color: #2e7d32;
+} */
+
+.formContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-direction: column;
 }

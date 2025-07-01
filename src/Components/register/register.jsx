@@ -56,18 +56,21 @@ const FormRegister = () => {
           name="nama_pembeli"
           onChange={handleChange}
           placeholder="Masukkan Nama"
+          label="Nama"
         />
         <InputFloatingForm
           type="email"
           name="email"
           onChange={handleChange}
           placeholder="Masukkan Email"
+          label="Email"
         />
         <InputFloatingForm
           type="text"
           name="no_hp"
           onChange={handleChange}
           placeholder="Masukkan No HP"
+          label="No HP"
         />
         <InputFloatingForm
           type="password"
@@ -75,6 +78,7 @@ const FormRegister = () => {
           onChange={handleChange}
           placeholder="Masukkan Password"
           autoComplete="off"
+          label="Password"
         />
       </div>
 
