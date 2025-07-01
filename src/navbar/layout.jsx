@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 // import Pegawai from "../pegawai/pegawai";
 import CRUDPegawai from "../admin/CRUDPegawai";
 import { Outlet } from "react-router-dom";
-import Admin from "../Admin/Admin";
+import Admin from "../admin/Admin";
 
 const Layout = () => {
     return (

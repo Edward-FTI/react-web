@@ -20,8 +20,8 @@ import Merchandise from "../Customer_Service/merchandise";
 // import VerifikasiPembayaran from "../Customer_Service/VerifikasiPembayaran";
 
 // ADMIN
-import Admin from "../Admin/Admin";
-import CRUDOrganisasi from "../Admin/CRUDOrganisasi";
+import Admin from "../admin/Admin";
+import CRUDOrganisasi from "../admin/CRUDOrganisasi";
 // import CRUDJabatan from "../admin/CRUDJabatan";
 // import CRUDMercandise from "../admin/CRUDMercandise";
 
@@ -63,6 +63,7 @@ import DetailBarang from "../Components/DetailBarang";
 
 // ALAMAT
 import CRUDAlamat from "../pembeli/CrudAlamat";
+// import CRUDPegawai from "..Admin/CRUDPegawai";
 import CRUDPegawai from "../admin/CRUDPegawai";
 
 //Checkout
