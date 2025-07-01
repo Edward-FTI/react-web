@@ -12,7 +12,7 @@ import {
     DeletePengambilan,
     GetPengambilanById,
     GetPengambilanByNama
-} from "../Api/apiPengambilan"
+} from "../Api/ApiPengambilan"
 
 import { GetAllKategori } from "../Api/apiKategori";
 import { GetAllPenitip } from "../Api/apiPenitip";
