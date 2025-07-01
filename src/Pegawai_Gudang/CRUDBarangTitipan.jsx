@@ -367,7 +367,7 @@ const CRUDBarangTitipan = () => {
                                 <td>{b.status_barang}</td>
                                 {/* <td>
                                     <img
-                                        src={`http://103.175.219.103/${b.gambar}`}
+                                        src={`https://103.175.219.103/${b.gambar}`}
                                         alt={b.nama_barang}
                                         className="img-thumbnail"
                                         style={{ width: "100px", height: "100px", objectFit: "cover" }}
@@ -597,7 +597,7 @@ const CRUDBarangTitipan = () => {
                                     {isEdit && form.gambar_lama && (
                                         <div className="mb-2">
                                             <img
-                                                src={`http://103.175.219.103/${form.gambar_lama}`}
+                                                src={`https://103.175.219.103/${form.gambar_lama}`}
                                                 alt="Gambar Lama"
                                                 className="img-thumbnail"
                                                 style={{ width: "100px", height: "100px", objectFit: "cover" }}
@@ -619,7 +619,7 @@ const CRUDBarangTitipan = () => {
                                     {isEdit && form.gambar_dua_lama && (
                                         <div className="mb-2">
                                             <img
-                                                src={`http://103.175.219.103/${form.gambar_dua_lama}`}
+                                                src={`https://103.175.219.103/${form.gambar_dua_lama}`}
                                                 alt="Gambar 2 Lama"
                                                 className="img-thumbnail"
                                                 style={{ width: "100px", height: "100px", objectFit: "cover" }}
@@ -662,7 +662,7 @@ const CRUDBarangTitipan = () => {
                                             <div className="carousel-inner">
                                                 <div className="carousel-item active">
                                                     <img
-                                                        src={`http://103.175.219.103/${selectedBarang.gambar}`}
+                                                        src={`https://103.175.219.103/${selectedBarang.gambar}`}
                                                         className="d-block w-100 rounded"
                                                         alt="Gambar 1"
                                                         style={{ maxHeight: "300px", objectFit: "contain" }}
@@ -671,7 +671,7 @@ const CRUDBarangTitipan = () => {
                                                 {selectedBarang.gambar_dua && (
                                                     <div className="carousel-item">
                                                         <img
-                                                            src={`http://103.175.219.103/${selectedBarang.gambar_dua}`}
+                                                            src={`https://103.175.219.103/${selectedBarang.gambar_dua}`}
                                                             className="d-block w-100 rounded"
                                                             alt="Gambar 2"
                                                             style={{ maxHeight: "300px", objectFit: "contain" }}
