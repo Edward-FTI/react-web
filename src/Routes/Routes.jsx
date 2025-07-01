@@ -20,7 +20,7 @@ import Merchandise from "../Customer_Service/merchandise";
 // import VerifikasiPembayaran from "../Customer_Service/VerifikasiPembayaran";
 
 // ADMIN
-import CRUDOrganisasi from "../admin/CRUDOrganisasi";
+import CRUDOrganisasi from "../Admin/CRUDOrganisasi";
 // import CRUDOrganisasi from "../admin/CRUDOrganisasi";
 // import Admin from "../admin/Admin";
 // import CRUDJabatan from "../admin/CRUDJabatan";
