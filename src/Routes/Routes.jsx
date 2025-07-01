@@ -13,24 +13,24 @@ import ResetPassword from "../Components/resetPassword";
 import AmbilBarang from "../Components/AmbilBarang";
 
 // CUSTOMER SERVICE
-// import NavbarCustomer_Service from "../navbar/NavbarCustomer_Service";
 import CRUDPenitip from "../Customer_Service/CRUDPenitip";
 import CRUDDiskusi from "../Customer_Service/CRUDDiskusi";
-import VerifikasiPembayaran from "../Customer_Service/VerifikasiPembayaran";
 import Merchandise from "../Customer_Service/merchandise";
+// import NavbarCustomer_Service from "../navbar/NavbarCustomer_Service";
+// import VerifikasiPembayaran from "../Customer_Service/VerifikasiPembayaran";
 
 // ADMIN
 import Admin from "../Admin/Admin";
+import CRUDOrganisasi from "../Admin/CRUDOrganisasi";
 // import CRUDJabatan from "../admin/CRUDJabatan";
 // import CRUDMercandise from "../admin/CRUDMercandise";
-import CRUDOrganisasi from "../Admin/CRUDOrganisasi";
 
 // PEGAWAI GUDANG
-import NavbarGudang from "../navbar/NavbarPegawai_gudang";
 import CRUDBarangTitipan from "../Pegawai_Gudang/CRUDBarangTitipan";
 import CRUDPengirimanPembeli from "../Pegawai_Gudang/CRUDPengiriman(Pembeli)";
 import UjianKelas from "../Pegawai_Gudang/UjianKelas"; // Sementara untuk testing
 import CRUDPengirimanPenitip from "../Pegawai_Gudang/CRUDPengiriman(Penitip)";
+// import NavbarGudang from "../navbar/NavbarPegawai_gudang";
 
 // CUSTOMER
 import NavbarCustomer from "../navbar/NavbarCustomer";
@@ -40,9 +40,9 @@ import CRUDTransaksiPenjualanCustomer from "../Customers/CRUDTransaksiPenjualanC
 
 // PENITIP
 import ShowProfilePenitip from "../Penitip/ShowProfilePenitip";
-// import ShowHistoryPenitip from "../penitip/ShowHistoryPenitip";
-import CRUDPenitipan from "../penitip/CRUDPenitipan";
 import PengambilanBarangKembali from "../Penitip/PengambilanBarangKembali";
+// import ShowHistoryPenitip from "../penitip/ShowHistoryPenitip";
+// import CRUDPenitipan from "../penitip/CRUDPenitipan";
 
 // ORGANISASI
 import CRUDTransaksiRequestDonasi from "../Organisasi/CRUDTransaksiRequestDonasi";
@@ -66,11 +66,11 @@ import CRUDAlamat from "../pembeli/CrudAlamat";
 import CRUDPegawai from "../admin/CRUDPegawai";
 
 //Checkout
-// import PaymentMethods from "../pembeli/CheckOut";
-// import OrderPage from "../pembeli/CheckOut";
 import OrderForm from "../pembeli/CheckOut";
 import TransaksiPembeli from "../pembeli/TransaksiPembeli";
 import TransaksiCS from "../Customer_Service/VerifikasiPembayaran";
+// import PaymentMethods from "../pembeli/CheckOut";
+// import OrderPage from "../pembeli/CheckOut";
 // import BarangHariIni from "../Pegawai_Gudang/barangHariIni";
 
 import Barang_Donasi from "../Test2/TampilkanDonasi";
