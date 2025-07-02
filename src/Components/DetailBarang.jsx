@@ -13,7 +13,7 @@ const DetailBarang = () => {
     useEffect(() => {
         const fetchBarang = async () => {
             try {
-                const response = await axios.get(`http://p3l.reusemart.fun/api/barang/${id}`);
+                const response = await axios.get(`http://103.175.219.103/api/barang/${id}`);
                 setBarang(response.data.data);
                 setLoading(false);
             } catch (error) {
@@ -41,7 +41,7 @@ const DetailBarang = () => {
                             {gambarArray.map((gambar, index) => (
                                 <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
                                     <img
-                                        src={`http://p3l.reusemart.fun/${gambar}`}
+                                        src={`http://103.175.219.103/${gambar}`}
                                         className="d-block mx-auto img-fluid p-3"
                                         style={{ maxHeight: "400px", objectFit: "contain" }}
                                         alt={`Gambar ${index + 1}`}

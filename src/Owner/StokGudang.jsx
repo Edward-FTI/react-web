@@ -5,7 +5,7 @@ import { BarangOwner } from "../Api/apiBarang";
 import { toast } from "sonner";
 
 // Ambil data barang publik (tanpa auth)
-const API_URL = "http://p3l.reusemart.fun/api/indexOwner";
+const API_URL = "http://103.175.219.103/api/indexOwner";
 
 export default function StokGudang() {
     const [barangList, setBarangList] = useState([]);

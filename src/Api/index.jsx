@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = 'http://p3l.reusemart.fun'
+export const BASE_URL = 'http://103.175.219.103'
 
 
 export const getThumbnail = (thumbnail) => {
