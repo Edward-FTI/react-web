@@ -274,7 +274,7 @@ const Dashboard = () => {
                           key={index}
                         >
                           <img
-                            src={`https://www.p3l.reusemart.fun:8000/${gambar}`}
+                            src={`https://www.p3l.reusemart.fun/${gambar}`}
                             className="d-block mx-auto img-fluid p-3"
                             style={{ maxHeight: "300px", objectFit: "contain" }}
                             alt={`Gambar ${index + 1}`}
