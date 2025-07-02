@@ -17,7 +17,7 @@ export const getAllMerchandise = async () => {
 
 
 export const updateTanggalPengambilan = async (id, tanggal) => {
-    const response = await fetch(`http://103.175.219.103/api/penukaran/${id}/input-tanggal`, {
+    const response = await fetch(`https://www.p3l.reusemart.fun/api/penukaran/${id}/input-tanggal`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

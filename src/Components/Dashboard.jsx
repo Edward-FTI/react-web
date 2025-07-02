@@ -28,7 +28,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchBarang = async () => {
       try {
-        const response = await axios.get("http://103.175.219.103/api/barang");
+        const response = await axios.get("https://www.p3l.reusemart.fun/api/barang");
 
         // Filter hanya barang yang statusnya "Dijual"
         const barangDijual = response.data.data.filter(
@@ -220,7 +220,7 @@ const Dashboard = () => {
                 onClick={() => handleModalOpen(item)}
               >
                 <img
-                  src={`http://103.175.219.103/${item.gambar}`}
+                  src={`https://www.p3l.reusemart.fun/${item.gambar}`}
                   className="card-img-top"
                   alt={item.nama_barang}
                 />
@@ -274,7 +274,7 @@ const Dashboard = () => {
                           key={index}
                         >
                           <img
-                            src={`http://103.175.219.103:8000/${gambar}`}
+                            src={`https://www.p3l.reusemart.fun:8000/${gambar}`}
                             className="d-block mx-auto img-fluid p-3"
                             style={{ maxHeight: "300px", objectFit: "contain" }}
                             alt={`Gambar ${index + 1}`}
@@ -370,7 +370,7 @@ const Dashboard = () => {
                 >
                   <div className="d-flex align-items-center">
                     <img
-                      src={`http://103.175.219.103/${item.barang.gambar}`}
+                      src={`https://www.p3l.reusemart.fun/${item.barang.gambar}`}
                       alt={item.barang.nama_barang}
                       style={{
                         width: "50px",

@@ -671,7 +671,7 @@ const CRUDPengirimanPembeli = () => {
                                                             {detailItem.barang?.gambar && (
                                                                 <div className="carousel-item active">
                                                                     <img
-                                                                        src={`http://103.175.219.103/${detailItem.barang.gambar}`}
+                                                                        src={`https://www.p3l.reusemart.fun/${detailItem.barang.gambar}`}
                                                                         className="d-block w-100 rounded"
                                                                         alt="Gambar 1"
                                                                         style={{ maxHeight: "300px", objectFit: "contain" }}
@@ -681,7 +681,7 @@ const CRUDPengirimanPembeli = () => {
                                                             {detailItem.barang?.gambar_dua && (
                                                                 <div className="carousel-item">
                                                                     <img
-                                                                        src={`http://103.175.219.103/${detailItem.barang.gambar_dua}`}
+                                                                        src={`https://www.p3l.reusemart.fun/${detailItem.barang.gambar_dua}`}
                                                                         className="d-block w-100 rounded"
                                                                         alt="Gambar 2"
                                                                         style={{ maxHeight: "300px", objectFit: "contain" }}
