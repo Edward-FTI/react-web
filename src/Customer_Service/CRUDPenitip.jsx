@@ -133,7 +133,7 @@ const CRUDPenitip = () => {
                 <td>{p.no_ktp}</td>
                 <td>
                   <img
-                    src={`https://103.175.219.103/${p.gambar_ktp}`}
+                    src={`http://p3l.reusemart.fun/${p.gambar_ktp}`}
                     alt={p.nama_penitip}
                     className="img-thumbnail"
                     style={{ width: "50px", height: "50px" }}

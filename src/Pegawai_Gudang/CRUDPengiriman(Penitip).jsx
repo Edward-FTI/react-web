@@ -336,7 +336,7 @@ const CRUDPengirimanPenitip = () => {
                       <div className="carousel-inner">
                         <div className="carousel-item active">
                           <img
-                            src={`https://103.175.219.103/${selectedBarang.gambar}`}
+                            src={`http://p3l.reusemart.fun/${selectedBarang.gambar}`}
                             className="d-block w-100 rounded"
                             alt="Gambar 1"
                             style={{ maxHeight: "300px", objectFit: "contain" }}
@@ -345,7 +345,7 @@ const CRUDPengirimanPenitip = () => {
                         {selectedBarang.gambar_dua && (
                           <div className="carousel-item">
                             <img
-                              src={`https://103.175.219.103/${selectedBarang.gambar_dua}`}
+                              src={`http://p3l.reusemart.fun/${selectedBarang.gambar_dua}`}
                               className="d-block w-100 rounded"
                               alt="Gambar 2"
                               style={{
