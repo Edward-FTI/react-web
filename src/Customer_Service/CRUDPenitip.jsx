@@ -14,6 +14,7 @@ const CRUDPenitip = () => {
     id: "",
     nama_penitip: "",
     no_ktp: "",
+    alamat: "",
     gambar_ktp: "",
     saldo: "",
     point: "",
@@ -213,6 +214,17 @@ const CRUDPenitip = () => {
                     name="no_ktp"
                     className="form-control"
                     value={form.no_ktp}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+
+                <div className="mb-3">
+                  <label className="form-label">Alamat</label>
+                  <input
+                    name="alamat"
+                    className="form-control"
+                    value={form.alamat}
                     onChange={handleChange}
                     required
                   />
