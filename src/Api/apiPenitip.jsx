@@ -1,4 +1,5 @@
 import useAxios from ".";
+import axios from "axios";
 
 // GET semua penitip
 export const GetAllPenitip = async () => {
