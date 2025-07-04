@@ -66,7 +66,7 @@ export const CreatePenitip = async (value) => {
 
         const response = await useAxios.post("/penitip", formData, {
             headers: {
-                // "Content-Type": "multipart/form-data",
+                "Content-Type": "multipart/form-data",
                 Authorization: `Bearer ${sessionStorage.getItem("token")}`,
             },
         });
